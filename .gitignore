@@ -1,0 +1,63 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+*.swp
+
+# FastAPI specific
+instance/
+.webassets-cache
+
+# Database files
+*.sqlite3
+*.db
+*.db-journal
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+test_*.xml
+tox.ini
+*.cover
+
+# Python build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# MySQL or PostgreSQL databases
+*.sql
+*.dump
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
